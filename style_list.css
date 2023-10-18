@@ -1,0 +1,94 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el encabezado de la página */
+header {
+    background-color: #2b6d9e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para el título principal */
+h1 {
+    font-size: 24px;
+}
+
+/* Estilo para la sección principal */
+main {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para el título de la tabla */
+h2 {
+    color: #2b6d9e;
+}
+
+/* Estilo para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Estilo para encabezados de columna */
+th {
+    background-color: #2b6d9e;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Estilo para filas pares */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilo para celdas */
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilo para el botón de volver */
+input[type="button"] {
+    background-color: #2b6d9e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Estilo para el botón al pasar el cursor por encima */
+input[type="button"]:hover {
+    background-color: #185c8a;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #2b6d9e;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilo para el título del pie de página */
+footer h2 {
+    font-size: 18px;
+}
+
+/* Estilo para el párrafo del pie de página */
+footer p {
+    font-size: 16px;
+}

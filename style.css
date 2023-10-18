@@ -1,0 +1,110 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el encabezado */
+h1 {
+    background-color: #3b5998;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+} 
+h2 {
+    text-align: center;
+}
+/* Estilo para el formulario */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Estilo para etiquetas de campo */
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Estilo para campos de entrada de texto y número */
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilo para el botón de enviar */
+input[type="submit"] {
+    background-color: #3b5998;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    float: right;
+}
+
+input[type="submit"]:hover {
+    background-color: #2d4567;
+}
+
+/* Estilo para la lista desplegable */
+select {
+    width: 100%;
+}
+
+/* Estilo para los mensajes de error (si los aplicas) */
+.error-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Estilo para el botón de volver */
+input[type="button"] {
+    background-color: #3b5998;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+
+/* Estilo para el botón al pasar el cursor por encima */
+input[type="submit"]:hover, input[type="button"]:hover {
+    background-color: #185c8a;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #2b6d9e;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilo para el título del pie de página */
+footer h2 {
+    font-size: 18px;
+}
+
+/* Estilo para el párrafo del pie de página */
+footer p {
+    font-size: 16px;
+}

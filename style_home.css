@@ -1,0 +1,88 @@
+/* Estilo para el cuerpo de la página de inicio */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el encabezado de la página de inicio */
+h1 {
+    color: #2b6d9e;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para el párrafo de bienvenida */
+p {
+    color: #333;
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+/* Estilo para los enlaces en la página de inicio */
+a {
+    color: #2b6d9e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilo para los enlaces al pasar el cursor por encima */
+a:hover {
+    color: #185c8a;
+}
+
+/* Estilo para la lista de enlaces */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilo para los elementos de la lista */
+li {
+    margin: 10px 0;
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+.contenedor{
+    text-align: center;
+
+}
+
+/* Estilo para el botón principal de la página */
+.button {
+    display: inline-block;
+    background-color: #2b6d9e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Estilo para el botón al pasar el cursor por encima */
+.button:hover {
+    background-color: #185c8a;
+}
+/* Estilo para el pie de página */
+footer {
+    background-color: #2b6d9e;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilo para el título del pie de página */
+footer h2 {
+    font-size: 18px;
+}
+
+/* Estilo para el párrafo del pie de página */
+footer p {
+    font-size: 16px;
+}
